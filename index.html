@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<script src="app.js"></script>
+</head>
+
+<body>
+    <input type="text" id="limitPerPage">
+    <select id="order">
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+        <option value="">None</option>
+    </select> 
+    <button value="Apply Filter" onclick="resetFilterValue()">Apply Filter</button>
+
+    <table id="table"></table>
+    <a href="#" onclick="prev()" >&laquo;</a> <a href="#" onclick="next()">&raquo;</a>
+</body>
+
+</html>
